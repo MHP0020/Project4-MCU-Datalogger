@@ -3,5 +3,8 @@
 fp-info-cache
 *.xml
 *.dsn
+*bom/*
+*dfm/*
+*/Libraries/*
 *Gerber/*
 *-backups/
