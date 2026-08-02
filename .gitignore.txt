@@ -1,3 +1,0 @@
-
-git commit -m "Initial commit: Project4 MCU Datalogger schematic and PCB"
-
