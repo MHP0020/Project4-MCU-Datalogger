@@ -5,7 +5,7 @@
 	(uuid "c20779ee-9543-406f-8a05-057408bad759")
 	(paper "A4")
 	(title_block
-		(title "MCU Datalogger")
+		(title "MCU Datalogger with memory & clock")
 		(date "2026-08-02")
 		(rev "1")
 		(company "MHP.DEV")
