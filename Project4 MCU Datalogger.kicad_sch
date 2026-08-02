@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid c20779ee-9543-406f-8a05-057408bad759)
+	(uuid "c20779ee-9543-406f-8a05-057408bad759")
 	(paper "A4")
+	(title_block
+		(title "MCU Datalogger")
+		(date "2026-08-02")
+		(rev "1")
+		(company "MHP.DEV")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
