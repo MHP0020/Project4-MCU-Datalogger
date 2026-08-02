@@ -1,5 +1,5 @@
 ﻿*.kicad_prl
-
+.DS_Store
 fp-info-cache
 *.xml
 *.dsn
@@ -8,5 +8,5 @@ fp-info-cache
 */Libraries/*
 *Gerber/*
 *-backups/
-TinyPowerSupply_gerbers_v1/*
+MCU Datalogger_gerbers_v1/*
 Project4 MCU Datalogger-backups/*
