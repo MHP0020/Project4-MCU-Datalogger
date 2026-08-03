@@ -2358,7 +2358,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 146.05 50.8 0)
+		(at 135.89 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2367,7 +2367,7 @@
 		(fields_autoplaced yes)
 		(uuid "11822fb3-3f0c-48fb-a389-bdfcd4ed03df")
 		(property "Reference" "C4"
-			(at 148.59 46.9962 0)
+			(at 138.43 41.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,8 +2375,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 148.59 49.5362 0)
+		(property "Value" "0.1uF"
+			(at 138.43 44.4562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2385,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
-			(at 147.0152 62.23 0)
+			(at 136.8552 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2394,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 147.32 67.31 0)
+			(at 137.16 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2403,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 69.85 0)
+			(at 135.89 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2412,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 146.05 64.77 0)
+			(at 135.89 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 148.59 52.0762 0)
+			(at 138.43 46.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,12 +2430,20 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 148.59 54.6162 0)
+			(at 138.43 49.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Purpose" ""
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2455,7 +2463,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Clock:Crystal")
-		(at 142.24 95.885 90)
+		(at 139.065 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2463,7 +2471,7 @@
 		(dnp no)
 		(uuid "165474b3-4ec3-4411-af10-f152ce494a63")
 		(property "Reference" "Y2"
-			(at 132.08 94.615 90)
+			(at 142.875 89.535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,8 +2479,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 132.08 97.155 90)
+		(property "Value" "16MHz"
+			(at 142.875 92.075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2489,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Clock:Crystal-SMD-5x3.2mm"
-			(at 149.86 95.885 0)
+			(at 146.685 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 95.885 0)
+			(at 144.145 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2507,7 @@
 			)
 		)
 		(property "Description" "Crystal"
-			(at 154.94 95.885 0)
+			(at 151.765 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,12 +2516,20 @@
 			)
 		)
 		(property "PROD_ID" "XTAL-"
-			(at 152.4 95.885 0)
+			(at 149.225 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 139.065 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2550,7 +2566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 110.49 128.9049 0)
 			(effects
 				(font
@@ -2586,6 +2602,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 108.585 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fbd26ac3-d322-4015-85fc-d3b2b92bcb14")
 		)
@@ -2603,7 +2627,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-LED:LED")
-		(at 264.16 101.6 90)
+		(at 135.89 62.865 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2612,7 +2636,7 @@
 		(fields_autoplaced yes)
 		(uuid "3338691f-6f85-48a8-b998-e1f3e2c041a4")
 		(property "Reference" "D1"
-			(at 266.065 100.2664 90)
+			(at 137.795 61.5314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2645,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 266.065 102.8064 90)
+			(at 137.795 64.0714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2654,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
-			(at 269.24 101.6 0)
+			(at 140.97 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 101.6 0)
+			(at 143.51 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2672,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 276.86 101.6 0)
+			(at 148.59 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2681,7 @@
 			)
 		)
 		(property "PROD_ID" "LED-"
-			(at 274.32 101.6 0)
+			(at 146.05 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2770,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.845 76.835 0)
+		(at 122.555 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2755,25 +2779,23 @@
 		(fields_autoplaced yes)
 		(uuid "3c969b31-beb6-42c9-9595-8072a0f9c1f4")
 		(property "Reference" "R5"
-			(at 31.75 75.5649 0)
+			(at 122.555 59.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 31.75 78.1049 0)
+		(property "Value" "330"
+			(at 122.555 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 28.067 76.835 90)
+			(at 122.555 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +2804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.845 76.835 0)
+			(at 122.555 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,12 +2813,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 29.845 76.835 0)
+			(at 122.555 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 122.555 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2985,7 +3015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 102.87 45.7262 0)
 			(effects
 				(font
@@ -3048,6 +3078,14 @@
 				(justify left)
 			)
 		)
+		(property "Purpose" ""
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab0b02f1-2697-4466-b363-16e7fb7b0deb")
 		)
@@ -3081,8 +3119,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 19.05 47.625 90)
+		(property "Value" "32.768 KHz"
+			(at 13.97 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,6 +3164,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 27.305 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1134da3b-ba5e-4ee6-a139-76f3df209cb9")
 		)
@@ -3160,7 +3206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 81.915 48.2599 0)
 			(effects
 				(font
@@ -3194,6 +3240,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3368,7 +3422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 93.345 48.2599 0)
 			(effects
 				(font
@@ -3404,6 +3458,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 91.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "766f98c8-8794-46ae-8c32-a081e2842cbd")
 		)
@@ -3421,7 +3483,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-LED:LED")
-		(at 105.41 74.93 0)
+		(at 264.795 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3429,7 +3491,7 @@
 		(dnp no)
 		(uuid "92dfd618-a969-4375-b5b4-254170e76dc0")
 		(property "Reference" "D2"
-			(at 105.4735 67.945 0)
+			(at 269.24 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3499,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 105.4735 70.485 0)
+			(at 269.24 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3507,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
-			(at 105.41 80.01 0)
+			(at 269.875 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 82.55 0)
+			(at 272.415 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3525,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 105.41 87.63 0)
+			(at 277.495 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3534,7 @@
 			)
 		)
 		(property "PROD_ID" "LED-"
-			(at 105.41 85.09 0)
+			(at 274.955 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3559,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C_Polarized")
-		(at 146.685 67.31 0)
+		(at 264.795 56.515 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3506,7 +3568,7 @@
 		(fields_autoplaced yes)
 		(uuid "a07c324b-a0dd-4677-944a-74daa4610b8a")
 		(property "Reference" "C5"
-			(at 149.86 62.8649 0)
+			(at 267.97 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,8 +3576,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 149.86 65.4049 0)
+		(property "Value" "100nF"
+			(at 267.97 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3586,7 @@
 			)
 		)
 		(property "Footprint" "~"
-			(at 146.685 87.63 0)
+			(at 264.795 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3595,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 147.955 82.55 0)
+			(at 266.065 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3604,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 146.685 85.09 0)
+			(at 264.795 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3613,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 146.685 80.01 0)
+			(at 264.795 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3622,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 149.86 67.9449 0)
+			(at 267.97 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,12 +3631,20 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 149.86 70.4849 0)
+			(at 267.97 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Purpose" ""
+			(at 264.795 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3594,7 +3664,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 120.65 50.8 0)
+		(at 121.285 81.915 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3603,7 +3673,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0ee9acc-a218-46f7-8edf-af0b74baa2f8")
 		(property "Reference" "C2"
-			(at 123.19 46.9962 0)
+			(at 123.825 78.1112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,8 +3681,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 123.19 49.5362 0)
+		(property "Value" "22pF"
+			(at 123.825 80.6512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3691,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
-			(at 121.6152 62.23 0)
+			(at 122.2502 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3700,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 121.92 67.31 0)
+			(at 122.555 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3709,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 69.85 0)
+			(at 121.285 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3718,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 120.65 64.77 0)
+			(at 121.285 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3727,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 123.19 52.0762 0)
+			(at 123.825 83.1912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,12 +3736,20 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 123.19 54.6162 0)
+			(at 123.825 85.7312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Purpose" ""
+			(at 121.285 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3690,8 +3768,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 264.795 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a51819d7-7378-4804-9f8d-64e7adeccb01")
+		(property "Reference" "R7"
+			(at 267.335 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 267.335 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.573 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.795 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.795 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 264.795 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1456141-21df-45ad-8feb-17cbbd18554b")
+		)
+		(pin "1"
+			(uuid "091cb572-908e-4748-81df-f03fc1b34a15")
+		)
+		(instances
+			(project "Project4 MCU Datalogger"
+				(path "/c20779ee-9543-406f-8a05-057408bad759"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:C")
-		(at 132.08 50.8 0)
+		(at 121.285 99.695 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3700,7 +3856,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaf01fc0-a164-419f-a229-3ebbbad23292")
 		(property "Reference" "C3"
-			(at 134.62 46.9962 0)
+			(at 123.825 95.8912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,8 +3864,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 134.62 49.5362 0)
+		(property "Value" "22pF"
+			(at 123.825 98.4312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3874,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
-			(at 133.0452 62.23 0)
+			(at 122.2502 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3883,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 133.35 67.31 0)
+			(at 122.555 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3892,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 69.85 0)
+			(at 121.285 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3901,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-00000"
-			(at 132.08 64.77 0)
+			(at 121.285 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3910,7 @@
 			)
 		)
 		(property "Voltage" "1kV"
-			(at 134.62 52.0762 0)
+			(at 123.825 100.9712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,12 +3919,20 @@
 			)
 		)
 		(property "Tolerance" "100%"
-			(at 134.62 54.6162 0)
+			(at 123.825 103.5112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Purpose" ""
+			(at 121.285 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3852,7 +4016,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 20.32 76.2 0)
+		(at 139.065 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,25 +4025,23 @@
 		(fields_autoplaced yes)
 		(uuid "c1ec6d45-b3b6-4226-9baf-f5a8e877c1ab")
 		(property "Reference" "R6"
-			(at 22.225 74.9299 0)
+			(at 139.065 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 22.225 77.4699 0)
+		(property "Value" "10K"
+			(at 139.065 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 18.542 76.2 90)
+			(at 139.065 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +4050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 76.2 0)
+			(at 139.065 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,12 +4059,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 20.32 76.2 0)
+			(at 139.065 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 139.065 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4027,7 +4197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 120.65 128.9049 0)
 			(effects
 				(font
@@ -4063,6 +4233,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 118.745 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b07c6d94-83b6-404c-b18a-aa03df3199d3")
 		)
@@ -4080,16 +4258,15 @@
 	)
 	(symbol
 		(lib_id "ATMEGA328P-AU:ATMEGA328P-AU")
-		(at 235.585 102.235 180)
+		(at 212.725 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6d110f6-eb5e-4c7d-965d-e4392d392aad")
 		(property "Reference" "IC2"
-			(at 239.395 79.0096 0)
+			(at 263.525 73.5898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4274,7 @@
 			)
 		)
 		(property "Value" "ATMEGA328P-AU"
-			(at 239.395 81.5496 0)
+			(at 236.855 61.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4282,7 @@
 			)
 		)
 		(property "Footprint" "QFP80P900X900X120-32N"
-			(at 168.275 135.255 0)
+			(at 245.745 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4292,7 @@
 			)
 		)
 		(property "Datasheet" "http://uk.rs-online.com/web/p/products/1310271P"
-			(at 168.275 132.715 0)
+			(at 243.205 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4302,7 @@
 			)
 		)
 		(property "Description" "MICROCHIP - ATMEGA328P-AU. - MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32"
-			(at 235.585 102.235 0)
+			(at 212.725 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4311,7 @@
 			)
 		)
 		(property "Description_1" "MICROCHIP - ATMEGA328P-AU. - MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32"
-			(at 168.275 130.175 0)
+			(at 240.665 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4321,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 168.275 127.635 0)
+			(at 238.125 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4331,7 @@
 			)
 		)
 		(property "RS Part Number" "1310271P"
-			(at 168.275 125.095 0)
+			(at 235.585 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4341,7 @@
 			)
 		)
 		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/1310271P"
-			(at 168.275 122.555 0)
+			(at 233.045 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4351,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Microchip"
-			(at 168.275 120.015 0)
+			(at 230.505 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4361,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ATMEGA328P-AU"
-			(at 168.275 117.475 0)
+			(at 227.965 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4371,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 235.585 102.235 0)
+			(at 212.725 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4549,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 264.16 88.265 0)
+		(at 264.795 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4381,7 +4558,7 @@
 		(fields_autoplaced yes)
 		(uuid "efd47296-73d0-4992-8d90-10d8f073600c")
 		(property "Reference" "BT1"
-			(at 267.335 86.4234 0)
+			(at 267.97 74.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4567,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 267.335 88.9634 0)
+			(at 267.97 76.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 86.741 90)
+			(at 264.795 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 86.741 90)
+			(at 264.795 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4594,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 264.16 88.265 0)
+			(at 264.795 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4603,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 264.16 88.265 0)
+			(at 264.795 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4612,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 264.16 88.265 0)
+			(at 264.795 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4621,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 264.16 88.265 0)
+			(at 264.795 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
