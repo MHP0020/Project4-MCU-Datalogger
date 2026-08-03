@@ -1,7 +1,8 @@
-﻿*.kicad_prl
-
+﻿Project4 MCU Datalogger-backups/*
 fp-info-cache
+*.lck
+Thumbs.db
+.DS_Store
+*.kicad_prl
 *.xml
 *.dsn
-*Gerber/*
-*-backups/
