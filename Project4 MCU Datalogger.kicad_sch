@@ -3986,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.37 114.6302 0)
 			(effects
 				(font
@@ -4093,7 +4093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Clock:Crystal-SMD-5x3.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
 			(at 194.945 43.815 0)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.807 127.635 90)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 267.335 148.59 0)
 			(effects
 				(font
@@ -4461,7 +4461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 171.45 108.458 90)
 			(effects
 				(font
@@ -4538,7 +4538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 45.72 124.46 0)
 			(effects
 				(font
@@ -4692,7 +4692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 267.335 125.095 0)
 			(effects
 				(font
@@ -4756,7 +4756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.4702 55.88 0)
 			(effects
 				(font
@@ -4928,7 +4928,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SparkFun-Clock:Crystal-SMD-5x3.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
 			(at 34.29 43.815 0)
 			(effects
 				(font
@@ -5081,7 +5081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 83.312 34.925 90)
 			(effects
 				(font
@@ -5157,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Package_SO:Texas_S-PDSO-G8_3x3mm_P0.65mm"
 			(at 68.58 138.735 0)
 			(effects
 				(font
@@ -5234,6 +5234,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 36.83 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -5429,7 +5437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.837 34.925 90)
 			(effects
 				(font
@@ -5569,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 184.15 144.145 0)
 			(effects
 				(font
@@ -5647,7 +5655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 210.185 137.16 0)
 			(effects
 				(font
@@ -5754,7 +5762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.325 25.7302 0)
 			(effects
 				(font
@@ -5861,7 +5869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 196.215 147.447 90)
 			(effects
 				(font
@@ -5938,7 +5946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 179.705 25.7302 0)
 			(effects
 				(font
@@ -6112,7 +6120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 267.335 135.89 0)
 			(effects
 				(font
@@ -6174,7 +6182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 266.7 73.533 90)
 			(effects
 				(font
@@ -6316,7 +6324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 76.835 124.46 0)
 			(effects
 				(font
@@ -6404,7 +6412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 116.967 127.635 90)
 			(effects
 				(font
@@ -6479,7 +6487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP80P900X900X120-32N"
+		(property "Footprint" "Package_SO:Texas_DAD0032A_HTSSOP-32_6.1x11mm_P0.65mm_TopEP3.71x3.81mm"
 			(at 168.275 114.935 0)
 			(effects
 				(font
@@ -6774,7 +6782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
 			(at 267.335 160.655 0)
 			(effects
 				(font
@@ -6902,7 +6910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 188.341 128.27 90)
 			(effects
 				(font
