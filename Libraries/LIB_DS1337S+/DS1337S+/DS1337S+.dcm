@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1337S+
+D Maxim DS1337S+ Real Time Clock  Calendar 8-Pin SOIC
+K
+F http://uk.rs-online.com/web/p/products/1898635P
+$ENDCMP
+#
+#End Doc Library
