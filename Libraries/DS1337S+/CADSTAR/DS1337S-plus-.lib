@@ -1,0 +1,16 @@
+.DS1337S-plus- :1 ;Maxim DS1337S+ Real Time Clock  Calendar 8-Pin SOIC
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="X1" 2="X2" 3="'INTA'" 4="GND" 5="SDA" 6="SCL" 7="SQW/'INTB'" 8="VCC"
+*MXP 8
+*DFN DS1337S-plus-
+~!RS Part Number (1898635P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1898635P)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (DS1337S+)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/1898635P)
+~!Height (1.75mm)
+~!3D_Model (DS1337S+)
+DS1337S-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

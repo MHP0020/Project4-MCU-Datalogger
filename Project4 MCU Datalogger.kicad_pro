@@ -476,7 +476,10 @@
       },
       {
         "bus_width": 6,
+<<<<<<< HEAD
         "line_style": 0,
+=======
+>>>>>>> layout-2layer
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -637,5 +640,7 @@
       "connectors"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "project_name": "MCU Datalogger with memory & clock"
+  }
 }

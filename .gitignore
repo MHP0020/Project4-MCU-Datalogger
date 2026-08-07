@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿Project4 MCU Datalogger-backups/*
+=======
+﻿*.kicad_prl
+.DS_Store
+>>>>>>> layout-2layer
 fp-info-cache
 *.lck
 Thumbs.db
@@ -6,3 +11,13 @@ Thumbs.db
 *.kicad_prl
 *.xml
 *.dsn
+<<<<<<< HEAD
+=======
+*bom/*
+*dfm/*
+*/Libraries/*
+*Gerber/*
+*-backups/
+MCU Datalogger_gerbers_v1/*
+Project4 MCU Datalogger-backups/*
+>>>>>>> layout-2layer
