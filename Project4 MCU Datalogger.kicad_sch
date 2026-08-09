@@ -2745,6 +2745,12 @@
 		(uuid "68377fca-78b2-4490-a6a6-3f40454d50e3")
 	)
 	(junction
+		(at 174.625 146.685)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e94dd28-00f6-47a3-a489-f14cc1f86c11")
+	)
+	(junction
 		(at 179.705 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2900,6 +2906,16 @@
 	)
 	(wire
 		(pts
+			(xy 174.625 146.685) (xy 174.625 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c38a341-3762-493c-bd9d-5b72701ff587")
+	)
+	(wire
+		(pts
 			(xy 202.565 132.08) (xy 202.565 128.27)
 		)
 		(stroke
@@ -2980,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 174.625 132.08) (xy 174.625 149.225)
+			(xy 174.625 132.08) (xy 174.625 146.685)
 		)
 		(stroke
 			(width 0)
@@ -3740,6 +3756,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.275 146.685) (xy 174.625 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed798eb3-d189-4e6c-b628-ae33ca6a046d")
+	)
+	(wire
+		(pts
 			(xy 76.835 123.825) (xy 76.835 125.73)
 		)
 		(stroke
@@ -4139,12 +4165,12 @@
 		(uuid "acafcee3-fb58-4c9d-bdd5-312e70797548")
 	)
 	(label "Vcc"
-		(at 174.625 132.08 90)
+		(at 168.275 146.685 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ace532af-55ae-4826-a2c9-f7794c85c68a")
 	)
