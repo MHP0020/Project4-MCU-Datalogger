@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "IC2_internal_pad_clearance"
+    (condition "A.insideCourtyard('IC2') && B.insideCourtyard('IC2')")
+    (constraint clearance (min 0.2mm)))
