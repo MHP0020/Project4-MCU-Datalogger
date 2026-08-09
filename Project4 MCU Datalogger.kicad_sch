@@ -2787,6 +2787,12 @@
 		(uuid "dd115748-7e41-45d4-9a77-6eedfa0e3a57")
 	)
 	(junction
+		(at 197.485 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15c63de-60cc-4f33-9e5a-ba4b7bade064")
+	)
+	(junction
 		(at 86.36 46.355)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2956,6 +2962,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.835 48.895) (xy 203.835 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14793e24-c74b-478c-9060-84fd71ebc95d")
+	)
+	(wire
+		(pts
 			(xy 184.15 106.68) (xy 189.865 106.68)
 		)
 		(stroke
@@ -3076,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 197.485 98.425) (xy 197.485 118.11)
+			(xy 197.485 98.425) (xy 197.485 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3306,6 +3322,16 @@
 	)
 	(wire
 		(pts
+			(xy 268.605 45.72) (xy 268.605 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c49aa8-6577-4227-89ac-08e0cc60efa8")
+	)
+	(wire
+		(pts
 			(xy 193.675 22.225) (xy 194.945 22.225)
 		)
 		(stroke
@@ -3506,6 +3532,16 @@
 	)
 	(wire
 		(pts
+			(xy 268.605 101.6) (xy 197.485 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864ca716-9a95-4fe7-bb6e-0aec33ec03b2")
+	)
+	(wire
+		(pts
 			(xy 207.645 38.1) (xy 211.455 38.1)
 		)
 		(stroke
@@ -3606,6 +3642,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.835 45.72) (xy 268.605 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8e8926-45c5-4c01-9344-c8a021df3be5")
+	)
+	(wire
+		(pts
 			(xy 55.88 116.84) (xy 55.88 123.825)
 		)
 		(stroke
@@ -3663,6 +3709,16 @@
 			(type default)
 		)
 		(uuid "c7586c13-c7f0-4f9a-83e1-1649f943dad8")
+	)
+	(wire
+		(pts
+			(xy 197.485 101.6) (xy 197.485 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d787a196-279c-41c5-a4f0-1c3d4b32475e")
 	)
 	(wire
 		(pts
@@ -3884,16 +3940,6 @@
 		)
 		(uuid "2c202e7c-5969-4b90-b6d1-bbe7788b6ade")
 	)
-	(label "IN"
-		(at 203.835 48.895 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3423cc4b-05d0-47e1-8706-5f3eb0629560")
-	)
 	(label "Vcc"
 		(at 35.56 116.84 180)
 		(effects
@@ -3963,16 +4009,6 @@
 			(justify right bottom)
 		)
 		(uuid "4cbd649b-2247-4a2e-92fc-8dbdf960a470")
-	)
-	(label "IN"
-		(at 197.485 98.425 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d301b04-f10c-4c2f-8d08-6b71146815cf")
 	)
 	(label "SCK"
 		(at 247.015 75.565 0)
